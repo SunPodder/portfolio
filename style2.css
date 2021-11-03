@@ -1,0 +1,94 @@
+#services > section > h3{
+  font-size: 6vw;
+  transform: scale(1, 1.2);
+}
+
+#services > div > h3, #projects > div > h3{
+  background: linear-gradient(to right, #E6631F, #7F3C82);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.2rem;
+  transform: scale(1, 1.2);
+  /*animation: changeColor 8s infinite;*/
+}
+
+#services .fa, #services .fab{
+  font-size: 4rem;
+}
+
+.fas{
+  margin-top: -2vh;
+  color: white;
+  font-size: 16vw;
+  transform: scale(1.1, 1);
+}
+
+#social-icons i{
+  font-size: 1.5rem;
+  margin: 2vw;
+}
+
+footer a, footer i{
+  font-size: 1.2rem;
+  margin: 2vw;
+}
+
+#contact .fa, #contact .fab{
+  margin: 2vw;
+  font-size: 1.5rem;
+}
+
+iframe{
+  width: 60vw;
+  height: 40vh;
+  border: none;
+  border-radius: 4vw;
+}
+
+#projects > h2{
+  font-size: 4rem;
+  letter-spacing: 2vw;
+  font-family: 'Dosis';
+  transform: scale(0.8, 1);
+}
+
+#projects > div{
+  padding: 4vw;
+  box-shadow: 1px 1px 50px #aaa;
+  border-radius: 6vw;
+}
+
+.right{
+  text-align: right;
+}
+
+#projects{
+  padding: 5vw;
+}
+
+@keyframes changeColor{
+  0%{
+    background: linear-gradient(to right, #E6631F, #7F3C82);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  51%{
+    background: linear-gradient(to right, #7F3C82, #E6631F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  100%{
+    background: linear-gradient(to right, #E6631F, #7F3C82);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@keyframes changeBG{
+  from{
+    background: linear-gradient(to right, #7F3C82, #E6631F);
+  }
+  to{
+    background: linear-gradient(to right, #E6631F, #7F3C82);
+  }
+}

@@ -1,0 +1,29 @@
+@media only screen and (min-width: 600px) {
+  .hire, #contactBtn{
+    padding: 2vw;
+    transform: scale(0.8);
+    margin-top: -10vh;
+  }
+  article{
+    font-size: 4vw;
+  }
+  button, button > a{
+    font-size: 2vw;
+    padding: 3vw;
+  }
+  body{
+    font-size: 4vw;
+  }
+  #role{
+    display: none;
+  }
+  #skills{
+    margin-top: -20vh;
+  }
+  body, article{
+    font-size: 2rem;
+  }
+  #contact .fa, #contact .fab, footer a, footer {
+    font-size: 2rem;
+  }
+}

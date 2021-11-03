@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body{
+  user-select: none;
+  margin:2vh 0;
+  background: #000000;
+  color: white;
+  max-width: 100%;
+  max-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  font-family: 'Dosis';
+  font-size: 1.2rem;
+}
+
+button, button > a{
+  padding: 1rem;
+  border: none;
+  border-radius: 6vw;
+  margin: 4vw;
+  background: #039B9C;
+  color: white;
+  font-size: 3vw;
+  letter-spacing: 1vw;
+}
+
+.hire, .coffee{
+  padding: 1rem;
+  border: 2px solid #039B9C;
+  border-radius: 8vw;
+  text-shadow: 1px 1px 30px #039B9C;
+  box-shadow: 1px 1px 50px #039B9C;
+}
+
+.hr{
+  width: 100vw;
+  height: 0.2vh;
+  background-image: linear-gradient(to right, #E6631F, #7F3C82);
+  animation: changeBG 4s infinite;
+}
+
+.center{
+  text-align: center;
+}
+
+article{
+  font-family: 'Dosis';
+  font-size: 1.2rem;
+}
+
+main{
+  margin: 3vw;
+}
+
+a{
+  color: #039B9C;
+  text-decoration: none;
+}
+
+#hello-text{
+  font-size: 7vw;
+  font-family: 'Josefin Sans';
+}
+
+#role{
+  background: linear-gradient(to right, #E6631F, #7F3C82);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1vw;
+  animation: changeColor 10s infinite;
+}
+
+#name{
+  font-size: 7.2vw;
+  transform: scale(1, 0.8);
+  letter-spacing: 3vw;
+}
+
+.super-center{
+  margin-top: 30vh;
+  width: 100vw;
+  height: 100vh;
+}
+
+#head-details{
+  height: 100vh;
+  font-family: 'Dosis';
+  font-size: 4vw;
+}
+
+#profile-pic{
+  width: 40vw;
+  height: 40vw;
+  border-radius: 80%;
+}
+
+#services > div{
+  padding: 8%;
+}
