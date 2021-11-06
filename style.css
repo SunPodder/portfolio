@@ -25,6 +25,10 @@ button, button > a{
   letter-spacing: 1vw;
 }
 
+.no-mobile {
+  display: none;
+}
+
 .hire, .coffee{
   padding: 1rem;
   border: 2px solid #039B9C;
